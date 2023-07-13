@@ -144,7 +144,7 @@ namespace QL_SinhVien
 
         private void btnDong_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)

@@ -32,6 +32,8 @@ CREATE TABLE KetQuaHocTap (
 	Constraint PK_KetQuaHocTap Primary Key (MSSV, MSMH, HocKy, NienKhoa)
 )
 
+
+
 INSERT INTO Lop VALUES
 ('KH09A1', N'Lập trình .Net K36', 36),
 ('KH09A2', N'Hóa học K36', 36),
@@ -41,3 +43,12 @@ INSERT INTO Lop VALUES
 ('KH09A6', N'Tin học Ứng dụng K36', 36);
 
 Select * From Lop
+delete from Lop
+
+
+INSERT INTO SinhVien VALUES
+('B1809293', N'Đỗ', N'Thành', N'Nam','9/9/2000', 'KH09A3', 'alo','Admin'),
+('B1809294', N'Đỗ', N'Văn', N'Nam','11/1/2000', 'KH09A1', 'alo','Admin'),
+('B1809295', N'Đỗ', N'Trâm', N'Nữ','9/19/2000', 'KH09A5', 'alo','User'),
+('B1809296', N'Đỗ', N'Hoa', N'Nữ','9/2/2000', 'KH09A6', 'alo','User'),
+('B1809297', N'Đỗ', N'Tú', N'Nữ','1/9/2000', 'KH09A3', 'alo','User');

@@ -107,7 +107,7 @@
             // 
             // txtViTri
             // 
-            this.txtViTri.Location = new System.Drawing.Point(338, 265);
+            this.txtViTri.Location = new System.Drawing.Point(340, 274);
             this.txtViTri.Name = "txtViTri";
             this.txtViTri.Size = new System.Drawing.Size(100, 22);
             this.txtViTri.TabIndex = 7;
@@ -116,7 +116,7 @@
             // 
             this.btnDau.Location = new System.Drawing.Point(116, 265);
             this.btnDau.Name = "btnDau";
-            this.btnDau.Size = new System.Drawing.Size(75, 23);
+            this.btnDau.Size = new System.Drawing.Size(75, 42);
             this.btnDau.TabIndex = 8;
             this.btnDau.Text = "<<";
             this.btnDau.UseVisualStyleBackColor = true;
@@ -126,7 +126,7 @@
             // 
             this.btnTruoc.Location = new System.Drawing.Point(220, 264);
             this.btnTruoc.Name = "btnTruoc";
-            this.btnTruoc.Size = new System.Drawing.Size(75, 23);
+            this.btnTruoc.Size = new System.Drawing.Size(75, 42);
             this.btnTruoc.TabIndex = 9;
             this.btnTruoc.Text = "<";
             this.btnTruoc.UseVisualStyleBackColor = true;
@@ -136,7 +136,7 @@
             // 
             this.btnKe.Location = new System.Drawing.Point(488, 265);
             this.btnKe.Name = "btnKe";
-            this.btnKe.Size = new System.Drawing.Size(75, 23);
+            this.btnKe.Size = new System.Drawing.Size(75, 42);
             this.btnKe.TabIndex = 10;
             this.btnKe.Text = ">";
             this.btnKe.UseVisualStyleBackColor = true;
@@ -146,7 +146,7 @@
             // 
             this.btnCuoi.Location = new System.Drawing.Point(598, 264);
             this.btnCuoi.Name = "btnCuoi";
-            this.btnCuoi.Size = new System.Drawing.Size(75, 23);
+            this.btnCuoi.Size = new System.Drawing.Size(75, 42);
             this.btnCuoi.TabIndex = 11;
             this.btnCuoi.Text = ">>";
             this.btnCuoi.UseVisualStyleBackColor = true;

@@ -41,7 +41,14 @@ namespace QL_SinhVien
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            MyPublics.ConnectDatabase();
+            frmDangNhap fDangNhap = new frmDangNhap(this);
+            fDangNhap.ShowDialog();
+        }
+
+        private void mnuDangNhap_Click(object sender, EventArgs e)
+        {
+            frmDangNhap fDangNhap = new frmDangNhap(this);
+            fDangNhap.ShowDialog();
         }
     }
 }

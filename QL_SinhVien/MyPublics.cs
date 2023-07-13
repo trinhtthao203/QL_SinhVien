@@ -16,8 +16,8 @@ namespace QL_SinhVien
         public static void ConnectDatabase()
         {
             string strConn = @"Server=DESKTOP-SLT3JBF; Database=QL_SinhVien; Integrated Security = false ; UID=sa; PWD=616944@TtT";
-            conMyConnection = new SqlConnection(strConn);
-            
+            conMyConnection = new SqlConnection();
+            conMyConnection.ConnectionString = strConn;
             try
             {
                 conMyConnection.Open();

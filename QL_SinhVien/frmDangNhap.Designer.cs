@@ -96,6 +96,7 @@
             this.btnDong.TabIndex = 6;
             this.btnDong.Text = "Đóng";
             this.btnDong.UseVisualStyleBackColor = true;
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // frmDangNhap
             // 
@@ -111,6 +112,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmDangNhap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.frmDangNhap_Load);
             this.ResumeLayout(false);

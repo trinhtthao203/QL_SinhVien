@@ -105,6 +105,7 @@
             this.mnuLop03.Name = "mnuLop03";
             this.mnuLop03.Size = new System.Drawing.Size(239, 26);
             this.mnuLop03.Text = "Lớp sử dụng Command";
+            this.mnuLop03.Click += new System.EventHandler(this.mnuLop03_Click);
             // 
             // mnuSinhVien
             // 

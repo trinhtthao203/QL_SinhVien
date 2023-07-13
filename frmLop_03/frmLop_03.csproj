@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7F841146-477B-493D-AE81-2D5DB68BBC6B}</ProjectGuid>
+    <ProjectGuid>{AF19AF8E-52ED-48FE-B109-D1E286028123}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>QL_SinhVien</RootNamespace>
-    <AssemblyName>QL_SinhVien</AssemblyName>
+    <RootNamespace>frmLop_03</RootNamespace>
+    <AssemblyName>frmLop_03</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,54 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmDangNhap.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDangNhap.Designer.cs">
-      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLop_01.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLop_01.Designer.cs">
-      <DependentUpon>frmLop_01.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLop_02.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLop_02.Designer.cs">
-      <DependentUpon>frmLop_02.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLop_03.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLop_03.Designer.cs">
-      <DependentUpon>frmLop_03.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMain.Designer.cs">
-      <DependentUpon>frmMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MyPublics.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmDangNhap.resx">
-      <DependentUpon>frmDangNhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmLop_01.resx">
-      <DependentUpon>frmLop_01.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmLop_02.resx">
-      <DependentUpon>frmLop_02.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmLop_03.resx">
-      <DependentUpon>frmLop_03.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

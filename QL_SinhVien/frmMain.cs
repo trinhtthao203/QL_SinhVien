@@ -55,5 +55,11 @@ namespace QL_SinhVien
             frmLop_02 fLop_02 = new frmLop_02();
             fLop_02.ShowDialog();
         }
+
+        private void mnuLop03_Click(object sender, EventArgs e)
+        {
+            frmLop_03 fLop_03 = new frmLop_03();
+            fLop_03.ShowDialog();
+        }
     }
 }

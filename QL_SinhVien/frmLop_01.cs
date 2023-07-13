@@ -50,7 +50,6 @@ namespace QL_SinhVien
             btnThem.Enabled = true;
             btnSua.Enabled = true;
             btnXoa.Enabled = true;
-            btnXoa.Enabled = false;
             btnKhongLuu.Enabled = false;
             btnDong.Enabled = true;
             txtMSLop.BackColor = Color.White;

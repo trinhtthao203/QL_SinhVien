@@ -68,7 +68,7 @@ namespace QL_SinhVien
             bool blnResult = false;
             try
             {
-                string sqlSelect = "Select * From " + strTable + "Where" + strTenTruong + "='" + strGiaTri + "'";
+                string sqlSelect = "Select 1 From " + strTable + " Where " + strTenTruong + " ='" + strGiaTri + "' ";
                 if (conMyConnection.State == ConnectionState.Closed)
                     conMyConnection.Open();
                 SqlCommand cmdCommand = new SqlCommand(sqlSelect, conMyConnection);

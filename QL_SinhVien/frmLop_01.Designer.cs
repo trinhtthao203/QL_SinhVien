@@ -120,6 +120,7 @@
             this.btnDau.TabIndex = 8;
             this.btnDau.Text = "<<";
             this.btnDau.UseVisualStyleBackColor = true;
+            this.btnDau.Click += new System.EventHandler(this.btnDau_Click);
             // 
             // btnTruoc
             // 
@@ -129,6 +130,7 @@
             this.btnTruoc.TabIndex = 9;
             this.btnTruoc.Text = "<";
             this.btnTruoc.UseVisualStyleBackColor = true;
+            this.btnTruoc.Click += new System.EventHandler(this.btnTruoc_Click);
             // 
             // btnKe
             // 
@@ -138,6 +140,7 @@
             this.btnKe.TabIndex = 10;
             this.btnKe.Text = ">";
             this.btnKe.UseVisualStyleBackColor = true;
+            this.btnKe.Click += new System.EventHandler(this.btnKe_Click);
             // 
             // btnCuoi
             // 
@@ -147,6 +150,7 @@
             this.btnCuoi.TabIndex = 11;
             this.btnCuoi.Text = ">>";
             this.btnCuoi.UseVisualStyleBackColor = true;
+            this.btnCuoi.Click += new System.EventHandler(this.btnCuoi_Click);
             // 
             // btnThem
             // 
@@ -156,6 +160,7 @@
             this.btnThem.TabIndex = 12;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnSua
             // 
@@ -165,6 +170,7 @@
             this.btnSua.TabIndex = 13;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnLuu
             // 
@@ -174,6 +180,7 @@
             this.btnLuu.TabIndex = 14;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnKhongLuu
             // 
@@ -183,6 +190,7 @@
             this.btnKhongLuu.TabIndex = 15;
             this.btnKhongLuu.Text = "Không lưu";
             this.btnKhongLuu.UseVisualStyleBackColor = true;
+            this.btnKhongLuu.Click += new System.EventHandler(this.btnKhongLuu_Click);
             // 
             // btnXoa
             // 
@@ -192,6 +200,7 @@
             this.btnXoa.TabIndex = 16;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnDong
             // 
@@ -201,6 +210,7 @@
             this.btnDong.TabIndex = 17;
             this.btnDong.Text = "Đóng";
             this.btnDong.UseVisualStyleBackColor = true;
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // frmLop_01
             // 

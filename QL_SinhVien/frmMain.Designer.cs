@@ -75,7 +75,7 @@
             // mnuLop
             // 
             this.mnuLop.Name = "mnuLop";
-            this.mnuLop.Size = new System.Drawing.Size(216, 26);
+            this.mnuLop.Size = new System.Drawing.Size(203, 26);
             this.mnuLop.Text = "Lớp ";
             this.mnuLop.Click += new System.EventHandler(this.mnuLop_Click);
             // 
@@ -178,6 +178,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnuQuanLySV;
             this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trang Chủ";
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.mnuQuanLySV.ResumeLayout(false);

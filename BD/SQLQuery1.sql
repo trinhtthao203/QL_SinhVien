@@ -52,3 +52,5 @@ INSERT INTO SinhVien VALUES
 ('B1809295', N'Đỗ', N'Trâm', N'Nữ','9/19/2000', 'KH09A5', 'alo','User'),
 ('B1809296', N'Đỗ', N'Hoa', N'Nữ','9/2/2000', 'KH09A6', 'alo','User'),
 ('B1809297', N'Đỗ', N'Tú', N'Nữ','1/9/2000', 'KH09A3', 'alo','User');
+
+Select 1 from SinhVien where MSLop='KH09A5'
